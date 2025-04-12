@@ -92,6 +92,10 @@
     .work__project-btn {
       font-size: var(--size-base);
     }
+
+    .work__project{
+      margin-bottom: 20px;
+    }
   }
   
   /* sm */
@@ -187,6 +191,10 @@
       display: block;
       font-size: var(--size-base);
     }
+
+    .work__project{
+      margin-bottom: 40px;
+    }
   }
   
   /* md */
@@ -205,6 +213,10 @@
   
     .work__project-subtitle {
       font-size: var(--size-lg);
+    }
+
+    .work__project{
+      margin-bottom: 50px;
     }
   }
   
