@@ -88,3 +88,11 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--clr-rose);
   outline: 1px solid var(--clr-rose);
 }
+
+body.light-mode {
+  --clr-dark: #ffffff;
+  --clr-light: #000000;
+  --clr-slate600: #333;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+}
