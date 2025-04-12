@@ -56,6 +56,21 @@
   .about__image{
     border-radius: 50px;
   }
+
+  .about__socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .about__socials a img {
+    transition: transform 0.3s ease;
+  }
+  
+  .about__socials a:hover img {
+    transform: scale(1.2);
+  }
+  
   
   /* xs */
   @media (min-width: 475px) {
